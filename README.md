@@ -16,7 +16,7 @@
 - Alpha e Beta;
 - Mais...
 
-## Feramentas de testes
+## Ferramentas de testes
 
 - Testes de carga e perfomace; 
 - Testes de segurança;
@@ -27,7 +27,7 @@
 E um dos pilares do Extreme Programming, consiste em teste e refatorar em pequenos ciclos,
 onde voce escreve o teste antes do codigo, faz o mesmo passar e refatora o codigo.
 
-Escreita do teste -> Escrita do código -> Refatoração
+Escrita do teste -> Escrita do código -> Refatoração
 
 ## Vantagens
 
