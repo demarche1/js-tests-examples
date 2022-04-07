@@ -1,5 +1,5 @@
 class Math {
-    sum(firstValue, secondValue) {
+    sum(firstValue = 0, secondValue = 0) {
         return firstValue + secondValue
     }
 
@@ -21,6 +21,10 @@ class Math {
 
     multiply(firstValue, secondValue) {
         return firstValue * secondValue
+    }
+
+    printSum(_req, res, ...rest) {
+        res.load('index', this.sum(rest[0], rest[1]))
     }
 }
 
